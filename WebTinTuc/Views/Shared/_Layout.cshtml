@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    @RenderSection("Scripts", required: false)
+    <meta charset="UTF-8">
+    <meta name="description" content="Specer Template">
+    <meta name="keywords" content="Specer, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Specer | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="~/Content/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/style.css" type="text/css">
+</head>
+
+<body>
+    @{
+        var isAuthenticated = User.Identity.IsAuthenticated;
+        <p>IsAuthenticated: @isAuthenticated</p>
+    }
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="fa fa-close"></i>
+        </div>
+        <!-- Nội dung của offcanvas menu -->
+    </div>
+    <!-- Offcanvas Menu Section End -->
+    <!-- Header Section Begin -->
+    <!-- Phần header -->
+    <header class="header-section">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="ht-info">
+                            <ul>
+                                <li>
+                                    <a id="currentTime"></a>
+                                    -
+                                    <a id="currentDate"></a>
+                                </li>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("UserProfile", "Account")">@User.Identity.Name</a>
+                                        <span>|</span>
+                                        
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Login", "Account")">Sign in</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ht-links">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="@Url.Action("Index", "Home")"><img src="~/Content/img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <ul class="main-menu">
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" && ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")">
+                                    @Html.ActionLink("Home", "Index", "Home")
+                                </li>
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" && ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")">
+                                    @Html.ActionLink("Contact", "Contact", "Home")
+                                </li>
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "About" && ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")">
+                                    @Html.ActionLink("About", "About", "Home")
+                                </li>
+                            </ul>
+                            <!-- Search form or other items -->
+                            <div class="nm-right search-switch">
+                                <i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas-open">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    @RenderBody()
+    <!-- Header End -->
+    <!-- Breadcrumb Section Begin -->
+    <!-- Search model end -->
+    <!-- Js Plugins -->
+    <script>
+        function displayCurrentDateTime() {
+            var date = new Date();
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            var day = date.getDate();
+            var month = date.getMonth() + 1; // Tháng bắt đầu từ 0, nên cộng thêm 1
+            var year = date.getFullYear();
+
+            // Định dạng giờ
+            var timeString = hours.toString().padStart(2, '0') + ':' +
+                minutes.toString().padStart(2, '0') + ':' +
+                seconds.toString().padStart(2, '0');
+
+            // Định dạng ngày tháng
+            var dateString = day.toString().padStart(2, '0') + '/' +
+                month.toString().padStart(2, '0') + '/' +
+                year.toString();
+
+            // Cập nhật nội dung của các phần tử
+            document.getElementById("currentTime").textContent = timeString;
+            document.getElementById("currentDate").textContent = dateString;
+        }
+
+        // Cập nhật giờ và ngày tháng mỗi giây
+        setInterval(displayCurrentDateTime, 1000);
+    </script>
+    <script src="~/Content/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/js/jquery.slicknav.js"></script>
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <script src="~/Content/js/main.js"></script>
+</body>
+
+</html>

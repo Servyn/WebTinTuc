@@ -1,0 +1,21 @@
+@{
+    ViewBag.Title = "Logout";
+}
+<main aria-labelledby="title" class="blog-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 left-blog-pad">
+                <h2>Logout</h2>
+
+                <p>Are you sure you want to logout?</p>
+
+                @using (Html.BeginForm("Logout", "Account", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <button type="submit" class="btn btn-primary">Logout</button>
+                }
+            </div>
+        </div>
+    </div>
+</main>

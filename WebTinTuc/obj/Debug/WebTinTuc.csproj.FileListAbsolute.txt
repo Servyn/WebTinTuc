@@ -1,0 +1,410 @@
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll.config
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\WebTinTuc.pdb
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe.config
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csc.rsp
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe.config
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csi.rsp
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.AppContext.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Collections.Immutable.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Console.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Globalization.Calendars.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Http.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Sockets.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Reflection.Metadata.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.ValueTuple.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe.config
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\vbc.rsp
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe.config
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\Microsoft.Web.Infrastructure.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Razor.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\WebGrease.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Razor.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.pdb
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.AssemblyReference.cache
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.CoreCompileInputs.cache
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.Up2Date
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.dll
+D:\học\ASP.NET\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.pdb
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll.config
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\WebTinTuc.pdb
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe.config
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csc.rsp
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe.config
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\csi.rsp
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Console.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Http.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Sockets.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe.config
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\vbc.rsp
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Razor.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\WebGrease.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.Razor.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.CopyComplete
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.dll
+C:\Users\PC\Downloads\Webtintuc\Webtintuc\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.pdb
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll.config
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\WebTinTuc.pdb
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe.config
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\csc.rsp
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe.config
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\csi.rsp
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.AppContext.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Collections.Immutable.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Console.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Globalization.Calendars.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Http.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Sockets.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Reflection.Metadata.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.ValueTuple.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe.config
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\vbc.rsp
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe.config
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\Microsoft.Web.Infrastructure.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Razor.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\WebGrease.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.Razor.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.pdb
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.AssemblyReference.cache
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.CoreCompileInputs.cache
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.Up2Date
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.dll
+D:\học\DACS\Đồ án đã thêm giao diện\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.pdb
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll.config
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\WebTinTuc.pdb
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe.config
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\csc.rsp
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe.config
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\csi.rsp
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.AppContext.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Collections.Immutable.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Console.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Globalization.Calendars.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Http.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Sockets.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Reflection.Metadata.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.ValueTuple.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe.config
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\vbc.rsp
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe.config
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Microsoft.Web.Infrastructure.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Razor.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\WebGrease.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.Razor.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.pdb
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.AssemblyReference.cache
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.CoreCompileInputs.cache
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.Up2Date
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.pdb
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\EntityFramework.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\EntityFramework.SqlServer.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\EntityFramework.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\EntityFramework.SqlServer.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.Core.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.Core.xml
+D:\hoc\DACS\daview\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll.config
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\WebTinTuc.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\WebTinTuc.pdb
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\csc.exe.config
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\csc.rsp
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\csi.exe.config
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\csi.rsp
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.AppContext.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Collections.Immutable.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Console.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Globalization.Calendars.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Http.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Net.Sockets.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Reflection.Metadata.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.ValueTuple.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\vbc.exe.config
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\vbc.rsp
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\roslyn\VBCSCompiler.exe.config
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\EntityFramework.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\EntityFramework.SqlServer.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.Core.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Microsoft.Web.Infrastructure.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Razor.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\WebGrease.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\EntityFramework.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\EntityFramework.SqlServer.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.Core.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Helpers.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Mvc.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Optimization.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.Razor.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Deployment.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\System.Web.WebPages.Razor.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Newtonsoft.Json.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Antlr3.Runtime.pdb
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.AssemblyReference.cache
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.CoreCompileInputs.cache
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.csproj.Up2Date
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.dll
+D:\hoc\DACS\Đồ án test\WebTinTuc\WebTinTuc\obj\Debug\WebTinTuc.pdb
