@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\NewsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\NewsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|d:\\hoc\\dacs\\\u0111\u1ED3 \u00E1n test\\webtintuc\\webtintuc\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:webtintuc\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|d:\\hoc\\dacs\\\u0111\u1ED3 \u00E1n test\\webtintuc\\webtintuc\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:webtintuc\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|d:\\hoc\\dacs\\\u0111\u1ED3 \u00E1n test\\webtintuc\\webtintuc\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:webtintuc\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|d:\\hoc\\dacs\\\u0111\u1ED3 \u00E1n test\\webtintuc\\webtintuc\\models\\editarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:webtintuc\\models\\editarticleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,32 +55,20 @@
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\Article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\TinTuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -99,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -113,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -130,119 +142,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Models\\LoginViewModel.cs",
               "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\LoginViewModel.cs",
               "RelativeToolTip": "WebTinTuc\\Models\\LoginViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T08:48:34.936Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Article.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\Article.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Models\\Article.cs",
               "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\Article.cs",
               "RelativeToolTip": "WebTinTuc\\Models\\Article.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAowBwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T10:40:19.149Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\BaseController.cs",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "WebTinTuc\\Controllers\\BaseController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAuwBkAAAAhAAAA",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebTinTuc\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebTinTuc\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T00:11:10.994Z",
+              "WhenOpened": "2024-04-25T10:38:20.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\NewsController.cs",
               "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\NewsController.cs",
               "RelativeToolTip": "WebTinTuc\\Controllers\\NewsController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAmwCYAAAAWAAAA",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAiwIcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T16:13:31.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebTinTuc\\Views\\News\\Create.cshtml",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml",
-              "RelativeToolTip": "WebTinTuc\\Views\\News\\Create.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDEAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserProfile.cshtml",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml",
+              "RelativeDocumentMoniker": "WebTinTuc\\Views\\Account\\UserProfile.cshtml",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml",
+              "RelativeToolTip": "WebTinTuc\\Views\\Account\\UserProfile.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T16:16:09.108Z"
+              "WhenOpened": "2024-04-18T15:01:17.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebTinTuc\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAqwFUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T11:35:57.309Z"
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebTinTuc\\Views\\News\\Edit.cshtml",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Edit.cshtml",
+              "RelativeToolTip": "WebTinTuc\\Views\\News\\Edit.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T17:20:26.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WebTinTuc\\Models\\User.cs",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\User.cs",
-              "RelativeToolTip": "WebTinTuc\\Models\\User.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA9wCsAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebTinTuc\\Views\\News\\Delete.cshtml",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Delete.cshtml",
+              "RelativeToolTip": "WebTinTuc\\Views\\News\\Delete.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T17:20:38.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditArticleViewModel.cs",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\EditArticleViewModel.cs",
+              "RelativeDocumentMoniker": "WebTinTuc\\Models\\EditArticleViewModel.cs",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\EditArticleViewModel.cs",
+              "RelativeToolTip": "WebTinTuc\\Models\\EditArticleViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:12:25.143Z"
+              "WhenOpened": "2024-04-25T10:09:04.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebTinTuc\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:08:32.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CreateNewsViewModel.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\CreateNewsViewModel.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Models\\CreateNewsViewModel.cs",
               "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\CreateNewsViewModel.cs",
               "RelativeToolTip": "WebTinTuc\\Models\\CreateNewsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T18:06:00.643Z"
+              "WhenOpened": "2024-04-19T18:06:00.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebTinTuc\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:35:57.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "WebTinTuc\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "WebTinTuc\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T07:59:42.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -254,23 +297,73 @@
               "RelativeToolTip": "WebTinTuc\\Models\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T17:34:45.806Z"
+              "WhenOpened": "2024-04-19T17:34:45.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "WebTinTuc\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T00:11:10.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RegisterDbContext.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\RegisterDbContext.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Models\\RegisterDbContext.cs",
               "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\RegisterDbContext.cs",
               "RelativeToolTip": "WebTinTuc\\Models\\RegisterDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T09:52:18.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebTinTuc\\Models\\User.cs",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\User.cs",
+              "RelativeToolTip": "WebTinTuc\\Models\\User.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvysAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:12:25.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebTinTuc\\Views\\News\\Create.cshtml",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml",
+              "RelativeToolTip": "WebTinTuc\\Views\\News\\Create.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T16:16:09.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebTinTuc\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:08:32.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "TinTuc.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\TinTuc.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Models\\TinTuc.cs",
@@ -282,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Web.config",
               "RelativeDocumentMoniker": "WebTinTuc\\Web.config",
@@ -295,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\App_Start\\FilterConfig.cs",
@@ -307,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Global.asax.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Global.asax.cs",
@@ -319,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\Account\\Login.cshtml",
@@ -331,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Details.cshtml",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\News\\Details.cshtml",
@@ -343,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Global.asax",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Global.asax",
               "RelativeDocumentMoniker": "WebTinTuc\\Global.asax",
@@ -355,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\packages.config",
               "RelativeDocumentMoniker": "WebTinTuc\\packages.config",
@@ -367,19 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "WebTinTuc\\App_Start\\RouteConfig.cs",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "WebTinTuc\\App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:37:51.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\_ViewStart.cshtml",
@@ -391,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "favicon.ico",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\favicon.ico",
               "RelativeDocumentMoniker": "WebTinTuc\\favicon.ico",
@@ -402,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\Account\\Register.cshtml",
@@ -414,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\Shared\\_Layout.cshtml",
@@ -426,19 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserProfile.cshtml",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml",
-              "RelativeDocumentMoniker": "WebTinTuc\\Views\\Account\\UserProfile.cshtml",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml",
-              "RelativeToolTip": "WebTinTuc\\Views\\Account\\UserProfile.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T15:01:17.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Web.config",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\Web.config",
@@ -450,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\App_Start\\BundleConfig.cs",
@@ -462,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\Home\\Contact.cshtml",
@@ -474,19 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "WebTinTuc\\Views\\Account\\Logout.cshtml",
-              "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml",
-              "RelativeToolTip": "WebTinTuc\\Views\\Account\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-18T07:59:42.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "WebTinTuc\\Views\\Home\\About.cshtml",
