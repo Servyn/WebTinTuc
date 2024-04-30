@@ -1,16 +1,18 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Web.Mvc;
 using System.Web.Security;
+using WebTinTuc.Controllers;
 using WebTinTuc.Models;
 
-public class AccountController : Controller
+public class AccountController : BaseController
 {
     private readonly RegisterDbContext _dbContext;
 
     public AccountController()
     {
+        _dbContext = new RegisterDbContext();
     }
+
     // Phương thức để hiển thị form đăng ký
     public ActionResult Register()
     {
@@ -25,11 +27,8 @@ public class AccountController : Controller
     {
         if (ModelState.IsValid)
         {
-            using (var db = new RegisterDbContext())
-            {
-                db.Users.Add(user);
-                db.SaveChanges();
-            }
+            _dbContext.Users.Add(user);
+            _dbContext.SaveChanges();
             return RedirectToAction("Login", "Account");
         }
         // Nếu dữ liệu không hợp lệ, hiển thị lại trang đăng ký với các thông báo lỗi
@@ -50,19 +49,16 @@ public class AccountController : Controller
     {
         if (ModelState.IsValid)
         {
-            using (var db = new RegisterDbContext())
+            var user = _dbContext.Users.FirstOrDefault(u => u.Username == model.Username && u.Password == model.Password);
+            if (user != null)
             {
-                var user = db.Users.FirstOrDefault(u => u.Username == model.Username && u.Password == model.Password);
-                if (user != null)
-                {
-                    System.Web.Security.FormsAuthentication.SetAuthCookie(model.Username, false);
-                    // Xác nhận đăng nhập thành công, thực hiện các hành động tiếp theo, ví dụ: thiết lập session, cookie, vv.
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Invalid username or password.");
-                }
+                FormsAuthentication.SetAuthCookie(model.Username, false);
+                // Xác nhận đăng nhập thành công, thực hiện các hành động tiếp theo, ví dụ: thiết lập session, cookie, vv.
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Invalid username or password.");
             }
         }
         // Nếu dữ liệu đăng nhập không hợp lệ, hiển thị lại trang đăng nhập với các thông báo lỗi
@@ -74,12 +70,14 @@ public class AccountController : Controller
     [ValidateAntiForgeryToken]
     public ActionResult Logout()
     {
-        System.Diagnostics.Debug.WriteLine("Logout method is called.");
         // Xóa cookie xác thực và đăng xuất người dùng
         FormsAuthentication.SignOut();
         // Chuyển hướng người dùng về trang chủ
         return RedirectToAction("Index", "Home");
     }
+
+    // Phương thức để hiển thị thông tin người dùng
+    // Phương thức để hiển thị thông tin người dùng và các bài viết của họ
     public ActionResult UserProfile()
     {
         if (!User.Identity.IsAuthenticated)
@@ -87,7 +85,11 @@ public class AccountController : Controller
             return RedirectToAction("Login");
         }
 
-        return View();
+        // Lấy danh sách bài viết của người dùng hiện tại
+        var currentUserId = GetCurrentUserId();
+        var userArticles = _dbContext.Articles.Where(a => a.CreatedById == currentUserId).ToList();
+
+        return View(userArticles);
     }
 
 }

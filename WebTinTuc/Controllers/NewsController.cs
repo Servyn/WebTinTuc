@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Web.Mvc;
 using WebTinTuc.Models;
 
@@ -16,7 +17,7 @@ namespace WebTinTuc.Controllers
         // GET: News/Create
         public ActionResult Create()
         {
-            var model = new CreateNewsViewModel(); // Tạo một thể hiện của CreateNewsViewModel
+            var model = new CreateNewsViewModel();
             return View(model);
         }
 
@@ -35,7 +36,7 @@ namespace WebTinTuc.Controllers
                         Title = model.Title,
                         Content = model.Content,
                         PublishDate = DateTime.Now,
-                        CreatedById = currentUserId // Sét CreatedById là Id của người dùng hiện tại
+                        CreatedById = currentUserId
                     };
 
                     _dbContext.Articles.Add(article);
@@ -45,7 +46,6 @@ namespace WebTinTuc.Controllers
                 }
                 else
                 {
-                    // Xử lý trường hợp không tìm thấy người dùng
                     ModelState.AddModelError("", "Current user not found.");
                     return View(model);
                 }
@@ -53,5 +53,99 @@ namespace WebTinTuc.Controllers
 
             return View(model);
         }
+
+        public ActionResult Edit(int id)
+        {
+            var article = _dbContext.Articles.Find(id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+
+            if (article.CreatedById != GetCurrentUserId())
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            var model = new EditArticleViewModel
+            {
+                Id = article.Id,
+                Title = article.Title,
+                Content = article.Content
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(EditArticleViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var article = _dbContext.Articles.Find(model.Id);
+                if (article == null)
+                {
+                    return HttpNotFound();
+                }
+
+                if (article.CreatedById != GetCurrentUserId())
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+
+                article.Title = model.Title;
+                article.Content = model.Content;
+
+                _dbContext.SaveChanges();
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id)
+        {
+            var article = _dbContext.Articles.Find(id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+
+            if (article.CreatedById != GetCurrentUserId())
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View(article);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            var article = _dbContext.Articles.Find(id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+
+            if (article.CreatedById != GetCurrentUserId())
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            _dbContext.Articles.Remove(article);
+            _dbContext.SaveChanges();
+
+            // Trả về một phản hồi JSON để xác nhận rằng xóa đã thành công
+            return Json(new { success = true });
+        }
+
+
     }
+
 }

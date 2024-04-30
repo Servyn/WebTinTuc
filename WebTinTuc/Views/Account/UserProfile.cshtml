@@ -1,13 +1,37 @@
-﻿@{
+﻿@model IEnumerable<WebTinTuc.Models.Article>
+
+@{
     ViewBag.Title = "User Profile";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<!-- Thêm dòng script để tải thư viện jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-7N0qoFTJB0zV+pVpMsMgHj5KXPxXuqe/J0tFvi9i9w4=" crossorigin="anonymous"></script>
+
+<script>
+    function confirmDelete(id) {
+        if (confirm("Bạn có chắc chắn muốn xóa bài viết này không?")) {
+            $.ajax({
+                url: "/News/Delete/" + id, // Thêm id vào địa chỉ URL
+                type: "POST",
+                data: { id: id },
+                success: function (result) {
+                    // Nếu xóa thành công, làm gì đó (ví dụ: làm mới trang UserProfile)
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý lỗi (nếu cần)
+                    console.error(error);
+                }
+            });
+        }
+    }
+</script>
 
 <h2>User Profile</h2>
 
 <div>
     <p>Xin chào, @User.Identity.Name!</p>
-    <p>Email của bạn:</p>
     <a href="@Url.Action("Create", "News")" class="btn btn-primary">Create News</a>
     @if (User.Identity.IsAuthenticated)
     {
@@ -20,5 +44,37 @@
     else
     {
         <p>Bạn chưa đăng nhập.</p>
+        @Html.ActionLink("Đăng nhập", "Login", "Account")
     }
 </div>
+
+@if (Model != null && Model.Any())
+{
+    <h3>Các bài viết của bạn:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tiêu đề</th>
+                <th>Ngày đăng</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var article in Model)
+            {
+                <tr>
+                    <td>@article.Title</td>
+                    <td>@article.PublishDate</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "News", new { id = article.Id })">Edit</a> |
+                        <button type="button" onclick="confirmDelete(@article.Id)" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Hiện bạn chưa có bài viết nào.</p>
+}

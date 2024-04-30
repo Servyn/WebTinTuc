@@ -25,7 +25,18 @@ public class RouteConfig
             defaults: new { controller = "Account", action = "Logout" }
         );
 
-        // Thêm các route khác nếu cần
+        routes.MapRoute(
+            name: "UserProfile",
+            url: "Account/UserProfile",
+            defaults: new { controller = "Account", action = "UserProfile" }
+        );
+
+        routes.MapRoute(
+            name: "DeleteArticle",
+            url: "News/Delete/{id}",
+            defaults: new { controller = "News", action = "Delete", id = UrlParameter.Optional }
+        );
+
         routes.MapRoute(
             name: "Details",
             url: "News/Details",

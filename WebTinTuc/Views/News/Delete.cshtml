@@ -1,0 +1,33 @@
+﻿@model WebTinTuc.Models.Article
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Bạn có chắc chắn muốn xóa bài viết này không?</h3>
+<div>
+    <h4>Thông tin bài viết</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <!-- Thêm các trường dữ liệu khác cần hiển thị -->
+    </dl>
+
+    @using (Html.BeginForm("DeleteConfirmed", "News", new { id = Model.Id }, FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xác nhận xóa" class="btn btn-danger" /> |
+            @Html.ActionLink("Hủy", "Index")
+        </div>
+    }
+</div>
