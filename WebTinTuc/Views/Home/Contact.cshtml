@@ -1,26 +1,72 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
+﻿@model WebTinTuc.Models.Contacts
+
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9321.23808884894!2d106.71258308614995!3d10.803817543476576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a459cb43ab%3A0x6c3d29d370b52a7e!2zSFVURUNIIC0gxJDhuqFpIGjhu41jIEPDtG5nIG5naOG7hyBUUC5IQ00gKFNhaSBHb24gQ2FtcHVzKQ!5e0!3m2!1svi!2s!4v1713938524260!5m2!1svi!2s"
+            height="500" style="border:0;" allowfullscreen=""></iframe>
+</div>
 <main aria-labelledby="title" class="blog-section spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 left-blog-pad">
-                <h2 id="title">@ViewBag.Title.</h2>
-                <h3>@ViewBag.Message</h3>
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <h2>Contact Form</h2>
+                    <form>
+                        @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
 
-                <address>
-                    One Microsoft Way<br />
-                    Redmond, WA 98052-6399<br />
-                    <abbr title="Phone">P:</abbr>
-                    425.555.0100
-                </address>
+                            <div class="group-in">
+                                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label" })
+                                @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
 
-                <address>
-                    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-                    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-                </address>
+
+                            <div class="group-in">
+                                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label" })
+                                @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            </div>
+
+
+
+                            <div class="group-in">
+                                @Html.LabelFor(model => model.Subject)
+                                @Html.TextBoxFor(model => model.Subject, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="group-in">
+                                @Html.LabelFor(model => model.Message)
+                                @Html.TextBoxFor(model => model.Message, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                            </div>
+                            <button type="submit" value="Contact">Submit Now</button>
+                        }
+                    </form>   
+                </div>
             </div>
+            <div class="col-lg-6">
+                <div class="contact-info">
+                    <h2>Contact Info</h2>
+                    <p style="text-align: justify ">
+                        Theo thống kê, một cầu thủ giữ bóng trung bình khoảng 3-4 phút trong một trận đấu.
+                        Điều quan trọng là bạn làm được gì trong vòng 87 phút không có bóng.
+                        Bóng đá là một trò chơi trí tuệ, chạy ở đâu, khi nào cần chạy, khi nào cần lui về,
+                        khi nào cần tiếp cận đối phương, khi nào cần di chuyển,
+                        di chuyển như thế nào những điều đó được quyết định bởi tư duy chơi bóng của bạn và nó xác định bạn có phải là một cầu thủ giỏi hay không "Johan Cruyff"
+                    </p>
+                    <div class="ci-address">
+                        <h5>TP. Hồ Chí Minh</h5>
+                        <ul>
+                            <li>475A Đ. Điện Biên Phủ, Phường 25, Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam</li>
+                            <li>+84.123456789</li>
+                            <li>testwebtintuc@gmail.com </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-                
+    </div>
 </main>
+
