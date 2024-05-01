@@ -120,32 +120,12 @@ namespace WebTinTuc.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            return View(article);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            var article = _dbContext.Articles.Find(id);
-            if (article == null)
-            {
-                return HttpNotFound();
-            }
-
-            if (article.CreatedById != GetCurrentUserId())
-            {
-                return RedirectToAction("Index", "Home");
-            }
-
             _dbContext.Articles.Remove(article);
             _dbContext.SaveChanges();
 
-            // Trả về một phản hồi JSON để xác nhận rằng xóa đã thành công
+            // Trả về một phản hồi JSON để thông báo xóa thành công
             return Json(new { success = true });
         }
 
-
     }
-
 }

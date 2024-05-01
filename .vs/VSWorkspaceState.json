@@ -8,6 +8,6 @@
     "\\WebTinTuc\\Views\\Account",
     "\\WebTinTuc\\Views\\News"
   ],
-  "SelectedNode": "\\WebTinTuc.sln",
+  "SelectedNode": "\\WebTinTuc\\Views\\Account\\UserProfile.cshtml",
   "PreviewInSolutionExplorer": false
 }

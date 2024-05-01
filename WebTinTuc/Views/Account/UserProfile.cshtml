@@ -9,24 +9,31 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-7N0qoFTJB0zV+pVpMsMgHj5KXPxXuqe/J0tFvi9i9w4=" crossorigin="anonymous"></script>
 
 <script>
-    function confirmDelete(id) {
-        if (confirm("Bạn có chắc chắn muốn xóa bài viết này không?")) {
-            $.ajax({
-                url: "/News/Delete/" + id, // Thêm id vào địa chỉ URL
-                type: "POST",
-                data: { id: id },
-                success: function (result) {
+    function deleteArticle(id) {
+        $('#deleteConfirmationModal').modal('show');
+
+        $('#confirmDeleteForm').on('submit', function (e) {
+            e.preventDefault();
+
+            var form = $(this);
+            var url = form.attr('action');
+            var formData = form.serialize();
+
+            $.post(url, formData)
+                .done(function (data) {
                     // Nếu xóa thành công, làm gì đó (ví dụ: làm mới trang UserProfile)
                     location.reload();
-                },
-                error: function (xhr, status, error) {
+                })
+                .fail(function (xhr, status, error) {
                     // Xử lý lỗi (nếu cần)
                     console.error(error);
-                }
-            });
-        }
+                });
+
+            $('#deleteConfirmationModal').modal('hide');
+        });
     }
 </script>
+
 
 <h2>User Profile</h2>
 
@@ -78,3 +85,28 @@ else
 {
     <p>Hiện bạn chưa có bài viết nào.</p>
 }
+
+<!-- Modal xác nhận xóa bài viết -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa bài viết</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa bài viết này không?
+            </div>
+            <div class="modal-footer">
+                <form id="confirmDeleteForm" action="@Url.Action("Delete", "News")" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="articleId" name="id" value="" />
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
