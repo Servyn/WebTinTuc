@@ -2,12 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\WebTinTuc",
-    "\\WebTinTuc\\Controllers",
+    "\\WebTinTuc\\App_Start",
     "\\WebTinTuc\\Models",
+    "\\WebTinTuc\\Properties",
     "\\WebTinTuc\\Views",
     "\\WebTinTuc\\Views\\Account",
-    "\\WebTinTuc\\Views\\News"
+    "\\WebTinTuc\\Views\\Home",
+    "\\WebTinTuc\\Views\\News",
+    "\\WebTinTuc\\Views\\Shared"
   ],
-  "SelectedNode": "\\WebTinTuc\\Views\\Account\\UserProfile.cshtml",
+  "SelectedNode": "\\WebTinTuc\\Controllers\\NewsController.cs",
   "PreviewInSolutionExplorer": false
 }

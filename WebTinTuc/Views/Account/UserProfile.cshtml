@@ -5,36 +5,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!-- Thêm dòng script để tải thư viện jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-7N0qoFTJB0zV+pVpMsMgHj5KXPxXuqe/J0tFvi9i9w4=" crossorigin="anonymous"></script>
-
-<script>
-    function deleteArticle(id) {
-        $('#deleteConfirmationModal').modal('show');
-
-        $('#confirmDeleteForm').on('submit', function (e) {
-            e.preventDefault();
-
-            var form = $(this);
-            var url = form.attr('action');
-            var formData = form.serialize();
-
-            $.post(url, formData)
-                .done(function (data) {
-                    // Nếu xóa thành công, làm gì đó (ví dụ: làm mới trang UserProfile)
-                    location.reload();
-                })
-                .fail(function (xhr, status, error) {
-                    // Xử lý lỗi (nếu cần)
-                    console.error(error);
-                });
-
-            $('#deleteConfirmationModal').modal('hide');
-        });
-    }
-</script>
-
-
 <h2>User Profile</h2>
 
 <div>
@@ -73,8 +43,11 @@
                     <td>@article.Title</td>
                     <td>@article.PublishDate</td>
                     <td>
-                        <a href="@Url.Action("Edit", "News", new { id = article.Id })">Edit</a> |
-                        <button type="button" onclick="confirmDelete(@article.Id)" class="btn btn-danger">Delete</button>
+                        <a href="@Url.Action("Edit", "News", new { id = article.Id })" class="btn btn-primary">Edit</a>
+                        <form method="post" action="@Url.Action("Delete", "News", new { id = article.Id })" style="display: inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa bài viết này không?')">Delete</button>
+                        </form>
                     </td>
                 </tr>
             }
@@ -85,28 +58,3 @@ else
 {
     <p>Hiện bạn chưa có bài viết nào.</p>
 }
-
-<!-- Modal xác nhận xóa bài viết -->
-<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa bài viết</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                Bạn có chắc chắn muốn xóa bài viết này không?
-            </div>
-            <div class="modal-footer">
-                <form id="confirmDeleteForm" action="@Url.Action("Delete", "News")" method="post">
-                    @Html.AntiForgeryToken()
-                    <input type="hidden" id="articleId" name="id" value="" />
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
-                    <button type="submit" class="btn btn-danger">Xóa</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>

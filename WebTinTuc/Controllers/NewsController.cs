@@ -110,6 +110,7 @@ namespace WebTinTuc.Controllers
         public ActionResult Delete(int id)
         {
             var article = _dbContext.Articles.Find(id);
+
             if (article == null)
             {
                 return HttpNotFound();
@@ -119,13 +120,23 @@ namespace WebTinTuc.Controllers
             {
                 return RedirectToAction("Index", "Home");
             }
+            
+            try
+            {
+                _dbContext.Articles.Remove(article);
+                _dbContext.SaveChanges();
 
-            _dbContext.Articles.Remove(article);
-            _dbContext.SaveChanges();
-
-            // Trả về một phản hồi JSON để thông báo xóa thành công
-            return Json(new { success = true });
+                return RedirectToAction("UserProfile", "Account");
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ nếu có
+                // Ở đây bạn có thể ghi log lỗi hoặc trả về một trang lỗi
+                return View("Error");
+            }
         }
+
+
 
     }
 }

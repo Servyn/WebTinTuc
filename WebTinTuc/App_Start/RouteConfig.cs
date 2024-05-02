@@ -37,6 +37,7 @@ public class RouteConfig
             defaults: new { controller = "News", action = "Delete", id = UrlParameter.Optional }
         );
 
+
         routes.MapRoute(
             name: "Details",
             url: "News/Details",

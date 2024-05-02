@@ -142,7 +142,9 @@
     </Compile>
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\Contacts.cs" />
     <Compile Include="Models\CreateNewsViewModel.cs" />
+    <Compile Include="Models\DataContext.cs" />
     <Compile Include="Models\EditArticleViewModel.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\RegisterDbContext.cs" />
@@ -303,6 +305,8 @@
     <Content Include="Views\News\Create.cshtml" />
     <Content Include="Views\News\Edit.cshtml" />
     <Content Include="Views\News\_DeleteConfirmation.cshtml" />
+    <Content Include="Views\Home\Details.cshtml" />
+    <Content Include="Views\Home\ThankYou.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
