@@ -4,10 +4,13 @@
     "\\WebTinTuc",
     "\\WebTinTuc\\Controllers",
     "\\WebTinTuc\\Models",
+    "\\WebTinTuc\\Properties",
     "\\WebTinTuc\\Views",
     "\\WebTinTuc\\Views\\Account",
-    "\\WebTinTuc\\Views\\News"
+    "\\WebTinTuc\\Views\\Home",
+    "\\WebTinTuc\\Views\\News",
+    "\\WebTinTuc\\Views\\Shared"
   ],
-  "SelectedNode": "\\WebTinTuc.sln",
+  "SelectedNode": "\\WebTinTuc\\Controllers\\NewsController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,5 +1,8 @@
-﻿<!DOCTYPE html>
-<html lang="zxx">
+﻿@using WebTinTuc.Models
+
+
+<!DOCTYPE html>
+<html lang="vi">
 
 <head>
     @RenderSection("Scripts", required: false)
@@ -23,10 +26,6 @@
 </head>
 
 <body>
-    @{
-        var isAuthenticated = User.Identity.IsAuthenticated;
-        <p>IsAuthenticated: @isAuthenticated</p>
-    }
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -57,11 +56,34 @@
                                 </li>
                                 @if (User.Identity.IsAuthenticated)
                                 {
-                                    <li>
-                                        <a href="@Url.Action("UserProfile", "Account")">@User.Identity.Name</a>
-                                        <span>|</span>
-                                        
-                                    </li>
+                                    var username = User.Identity.Name;
+                                    var role = "";
+
+                                    using (var db = new RegisterDbContext())
+                                    {
+                                        var user = db.Users.FirstOrDefault(u => u.Username == username);
+                                        if (user != null)
+                                        {
+                                            role = user.Role;
+                                        }
+                                    }
+
+                                    if (role == "admin")
+                                    {
+                                        <li>
+                                            <a href="@Url.Action("AdminProfile", "Account")">@User.Identity.Name</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li>
+                                            <a href="@Url.Action("UserProfile", "Account")">@User.Identity.Name</a>
+                                        </li>
+                                    }
+
+                                    @*<li asp-controller="Account" asp-action="Logout" method="post" id="logoutForm">
+                                        <a href="@Url.Action("Logout", "Account")">Logout</a>
+                                    </li>*@
                                 }
                                 else
                                 {
@@ -89,7 +111,7 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <a href="@Url.Action("Index", "Home")"><img src="~/Content/img/logo.png" alt=""></a>
+                            <a href="@Url.Action("Index", "Home")"><img src="~/Content/img/logotintucbongda.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
@@ -119,13 +141,17 @@
         </div>
     </header>
 
-
-
     @RenderBody()
-    <!-- Header End -->
-    <!-- Breadcrumb Section Begin -->
-    <!-- Search model end -->
+
     <!-- Js Plugins -->
+    <script src="~/Content/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/js/jquery.slicknav.js"></script>
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <script src="~/Content/js/main.js"></script>
+
+    <!-- Script để hiển thị giờ và ngày tháng -->
     <script>
         function displayCurrentDateTime() {
             var date = new Date();
@@ -154,12 +180,6 @@
         // Cập nhật giờ và ngày tháng mỗi giây
         setInterval(displayCurrentDateTime, 1000);
     </script>
-    <script src="~/Content/js/jquery-3.3.1.min.js"></script>
-    <script src="~/Content/js/bootstrap.min.js"></script>
-    <script src="~/Content/js/jquery.magnific-popup.min.js"></script>
-    <script src="~/Content/js/jquery.slicknav.js"></script>
-    <script src="~/Content/js/owl.carousel.min.js"></script>
-    <script src="~/Content/js/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+﻿@model WebTinTuc.Models.Article
+
+<div id="deleteConfirmationModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Xác nhận xóa bài viết</h4>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có chắc chắn muốn xóa bài viết này không?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Hủy</button>
+                @using (Html.BeginForm("ConfirmDelete", "News", new { id = Model.Id }, FormMethod.Post, new { id = "confirmDeleteForm" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>

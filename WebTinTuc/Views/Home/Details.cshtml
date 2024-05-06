@@ -1,0 +1,157 @@
+﻿@model WebTinTuc.Models.Article
+
+<div class="blog-details-section spad">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="bh-text">
+                    <h2>@Model.Title</h2>
+                    <ul>
+                        <li>
+                            <i class="fa fa-calendar"></i>@Model.PublishDate
+                        </li>
+                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                    </ul>
+                    <br />
+                </div>
+            </div>
+
+            <div class="col-lg-8 left-blog-pad">
+                <div class="bd-text">
+                    <div class="bd-title">
+                        <div class="tinymce-content" style="text-align:justify">
+                            @Html.Raw(Model.Content)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-sidebar">
+                    <div class="bs-categories">
+                        <div class="section-title sidebar-title">
+                            <h5>Categories</h5>
+                        </div>
+                        <ul>
+                            <li><a href="#">Fool Ball</a></li>
+                            <li><a href="#">Soccer</a></li>
+                            <li><a href="#">basketball</a></li>
+                            <li><a href="#">Volleyball</a></li>
+                            <li><a href="#">E-Sport</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow-links">
+                        <div class="section-title sidebar-title">
+                            <h5>Follow</h5>
+                        </div>
+                        <ul>
+                            <li class="facebook">
+                                <i class="fa fa-facebook"></i>
+                                <div class="fl-name">Facebook</div>
+                                <span class="fl-fan">2.530 Fans</span>
+                            </li>
+                            <li class="twitter">
+                                <i class="fa fa-twitter"></i>
+                                <div class="fl-name">Twitter</div>
+                                <span class="fl-fan">2.046 Fans</span>
+                            </li>
+                            <li class="google">
+                                <i class="fa fa-google"></i>
+                                <div class="fl-name">Google</div>
+                                <span class="fl-fan">1.170 Fans</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bs-recent">
+                        <div class="section-title sidebar-title">
+                            <h5>Recent Post</h5>
+                        </div>
+                        <div class="news-item">
+                            <div class="ni-pic">
+                                <img src="~/Content/img/news/ln-1.jpg" alt="">
+                            </div>
+                            <div class="ni-text">
+                                <h5><a href="#">How To Quit Smoking Using Zyban</a></h5>
+                                <ul>
+                                    <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                    <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="ni-pic">
+                                <img src="~/Content/img/news/ln-2.jpg" alt="">
+                            </div>
+                            <div class="ni-text">
+                                <h5><a href="#">Decorate For Less With Art Posters</a></h5>
+                                <ul>
+                                    <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                    <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="ni-pic">
+                                <img src="~/Content/img/news/ln-3.jpg" alt="">
+                            </div>
+                            <div class="ni-text">
+                                <h5><a href="#">Home Business Advertising Ideas</a></h5>
+                                <ul>
+                                    <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                    <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="ni-pic">
+                                <img src="~/Content/img/news/ln-4.jpg" alt="">
+                            </div>
+                            <div class="ni-text">
+                                <h5><a href="#">Lasik Doesn T Stop Your Eyes From Aging</a></h5>
+                                <ul>
+                                    <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                    <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bs-popular-tag">
+                        <div class="section-title sidebar-title">
+                            <h5>Popular Tag</h5>
+                        </div>
+                        <div class="tags">
+                            <a href="#">Seagame</a>
+                            <a href="#">Fifa</a>
+                            <a href="#">World Cup 2019</a>
+                            <a href="#">Championship</a>
+                            <a href="#">2019</a>
+                            <a href="#">Qatar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdn.tiny.cloud/1/gb6judfnnx2isd0kuky6zkcfl4o18qqq5ekgo69b9yc99el0/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var contentElement = document.querySelector('.tinymce-content');
+            var content = contentElement.textContent;
+
+            // Giải mã nội dung TinyMCE
+            var decodedContent = decodeURIComponent(content);
+
+            // Chuyển đổi các ký tự đặc biệt thành văn bản bình thường
+            var div = document.createElement('div');
+            div.innerHTML = decodedContent;
+            var plainTextContent = div.textContent;
+
+            // Thay thế nội dung gốc bằng văn bản bình thường
+            contentElement.textContent = plainTextContent;
+        });
+    </script>
+
+}
+

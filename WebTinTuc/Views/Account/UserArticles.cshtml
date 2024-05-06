@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebTinTuc.Models.Article>
+
+@{
+    ViewBag.Title = "User Articles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>User Articles</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Publish Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.Title</td>
+                <td>@article.PublishDate</td>
+                <td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form method="post" action="@Url.Action("Delete", "News", new { id = article.Id })" style="display: inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa bài viết này không?')">Delete</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,17 +1,18 @@
 ﻿@model IEnumerable<WebTinTuc.Models.Article>
 
 @{
-    ViewBag.Title = "User Profile";
+    ViewBag.Title = "Admin Profile";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>User Profile</h2>
+<h2>Admin Profile</h2>
 
 <div>
     <p>Xin chào, @User.Identity.Name!</p>
     <a href="@Url.Action("Create", "News")" class="btn btn-primary">Create News</a>
     @if (User.Identity.IsAuthenticated)
     {
+        <a href="@Url.Action("UserList", "Account")" class="btn btn-primary">Danh sách người dùng</a>
         using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))
         {
             @Html.AntiForgeryToken()
