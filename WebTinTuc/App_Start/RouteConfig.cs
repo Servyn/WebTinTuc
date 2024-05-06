@@ -32,6 +32,12 @@ public class RouteConfig
         );
 
         routes.MapRoute(
+            name: "AdminProfile",
+            url: "Account/AdminProfile",
+            defaults: new { controller = "Account", action = "AdminProfile" }
+        );
+
+        routes.MapRoute(
             name: "DeleteArticle",
             url: "News/Delete/{id}",
             defaults: new { controller = "News", action = "Delete", id = UrlParameter.Optional }

@@ -142,13 +142,13 @@
     </Compile>
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\BaseLayoutController.cs" />
     <Compile Include="Models\Contacts.cs" />
     <Compile Include="Models\CreateNewsViewModel.cs" />
     <Compile Include="Models\DataContext.cs" />
     <Compile Include="Models\EditArticleViewModel.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\RegisterDbContext.cs" />
-    <Compile Include="Models\TinTuc.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -307,6 +307,9 @@
     <Content Include="Views\News\_DeleteConfirmation.cshtml" />
     <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\Home\ThankYou.cshtml" />
+    <Content Include="Views\Account\AdminProfile.cshtml" />
+    <Content Include="Views\Account\UserList.cshtml" />
+    <Content Include="Views\Account\UserArticles.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

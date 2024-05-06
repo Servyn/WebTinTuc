@@ -1,0 +1,61 @@
+﻿@model IEnumerable<WebTinTuc.Models.Article>
+
+@{
+    ViewBag.Title = "Admin Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Admin Profile</h2>
+
+<div>
+    <p>Xin chào, @User.Identity.Name!</p>
+    <a href="@Url.Action("Create", "News")" class="btn btn-primary">Create News</a>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a href="@Url.Action("UserList", "Account")" class="btn btn-primary">Danh sách người dùng</a>
+        using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-link">Logout</button>
+        }
+    }
+    else
+    {
+        <p>Bạn chưa đăng nhập.</p>
+        @Html.ActionLink("Đăng nhập", "Login", "Account")
+    }
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <h3>Các bài viết của bạn:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tiêu đề</th>
+                <th>Ngày đăng</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var article in Model)
+            {
+                <tr>
+                    <td>@article.Title</td>
+                    <td>@article.PublishDate</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "News", new { id = article.Id })" class="btn btn-primary">Edit</a>
+                        <form method="post" action="@Url.Action("Delete", "News", new { id = article.Id })" style="display: inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa bài viết này không?')">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Hiện bạn chưa có bài viết nào.</p>
+}

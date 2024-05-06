@@ -109,34 +109,66 @@ namespace WebTinTuc.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id)
         {
+            // Lấy bài viết từ cơ sở dữ liệu
             var article = _dbContext.Articles.Find(id);
 
+            // Kiểm tra xem bài viết có tồn tại không
             if (article == null)
             {
                 return HttpNotFound();
             }
 
-            if (article.CreatedById != GetCurrentUserId())
+            // Kiểm tra xem người dùng hiện tại có vai trò là "admin" hay không
+            var currentUser = _dbContext.Users.FirstOrDefault(u => u.Username == User.Identity.Name);
+            if (currentUser == null)
             {
-                return RedirectToAction("Index", "Home");
+                // Xử lý nếu không tìm thấy thông tin người dùng
+                return HttpNotFound(); // Hoặc trả về một trang lỗi
             }
-            
-            try
-            {
-                _dbContext.Articles.Remove(article);
-                _dbContext.SaveChanges();
 
-                return RedirectToAction("UserProfile", "Account");
-            }
-            catch (Exception ex)
+            // Kiểm tra xem người dùng hiện tại có vai trò là "admin" hay không
+            if (currentUser.Role == "admin")
             {
-                // Xử lý ngoại lệ nếu có
-                // Ở đây bạn có thể ghi log lỗi hoặc trả về một trang lỗi
-                return View("Error");
+                // Nếu là admin, cho phép xóa bài viết của tất cả người dùng
+                try
+                {
+                    _dbContext.Articles.Remove(article);
+                    _dbContext.SaveChanges();
+                    return RedirectToAction("AdminProfile", "Account");
+                }
+                catch (Exception ex)
+                {
+                    // Xử lý ngoại lệ nếu có
+                    // Ở đây bạn có thể ghi log lỗi hoặc trả về một trang lỗi
+                    return View("Error");
+                }
+            }
+            else
+            {
+                // Nếu không phải là admin, kiểm tra xem người dùng có phải là tác giả của bài viết không
+                if (article.CreatedById == currentUser.Id)
+                {
+                    // Nếu là tác giả của bài viết, cho phép xóa bài viết
+                    try
+                    {
+                        _dbContext.Articles.Remove(article);
+                        _dbContext.SaveChanges();
+                        return RedirectToAction("UserProfile", "Account");
+                    }
+                    catch (Exception ex)
+                    {
+                        // Xử lý ngoại lệ nếu có
+                        // Ở đây bạn có thể ghi log lỗi hoặc trả về một trang lỗi
+                        return View("Error");
+                    }
+                }
+                else
+                {
+                    // Người dùng không có quyền xóa bài viết
+                    return RedirectToAction("Index", "Home");
+                }
             }
         }
-
-
 
     }
 }

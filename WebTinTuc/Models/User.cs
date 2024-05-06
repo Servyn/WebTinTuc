@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace WebTinTuc.Models
 {
@@ -37,6 +35,8 @@ namespace WebTinTuc.Models
 
         [Required(ErrorMessage = "Please select your gender")]
         public string Gender { get; set; }
+
+        public string Role { get; set; } // Thêm thuộc tính Role
 
         // Navigation property
         public virtual ICollection<Article> Articles { get; set; }

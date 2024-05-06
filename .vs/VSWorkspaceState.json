@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\WebTinTuc",
-    "\\WebTinTuc\\App_Start",
+    "\\WebTinTuc\\Controllers",
     "\\WebTinTuc\\Models",
     "\\WebTinTuc\\Properties",
     "\\WebTinTuc\\Views",

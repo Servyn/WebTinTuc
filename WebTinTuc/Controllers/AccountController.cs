@@ -91,5 +91,55 @@ public class AccountController : BaseController
 
         return View(userArticles);
     }
+    public ActionResult AdminProfile()
+    {
+        // Kiểm tra quyền truy cập của người dùng
+        if (!User.Identity.IsAuthenticated)
+        {
+            // Nếu không được phép truy cập, chuyển hướng về trang đăng nhập
+            return RedirectToAction("Login");
+        }
 
+        // Lấy thông tin của người dùng hiện tại
+        var username = User.Identity.Name;
+
+        // Kiểm tra vai trò của người dùng
+        var role = "";
+        using (var db = new RegisterDbContext())
+        {
+            var user = db.Users.FirstOrDefault(u => u.Username == username);
+            if (user != null)
+            {
+                role = user.Role;
+            }
+        }
+
+        // Nếu vai trò là admin, truyền danh sách bài viết của người dùng admin vào view
+        if (role == "admin")
+        {
+            // Lấy danh sách bài viết của người dùng hiện tại
+            var currentUserId = GetCurrentUserId();
+            var userArticles = _dbContext.Articles.Where(a => a.CreatedById == currentUserId).ToList();
+
+            // Truyền danh sách bài viết vào view AdminProfile
+            return View(userArticles);
+        }
+        else
+        {
+            // Nếu không phải admin, chuyển hướng về trang UserProfile
+            return RedirectToAction("UserProfile");
+        }
+
+    }
+    public ActionResult UserList()
+    {
+        // Lấy danh sách các người dùng từ cơ sở dữ liệu, loại bỏ các người dùng có vai trò là admin
+        var userList = _dbContext.Users.Where(u => u.Role != "admin").ToList();
+        return View(userList);
+    }
+    public ActionResult UserArticles(int userId)
+    {
+        var userArticles = _dbContext.Articles.Where(a => a.CreatedById == userId).ToList();
+        return View(userArticles);
+    }
 }
