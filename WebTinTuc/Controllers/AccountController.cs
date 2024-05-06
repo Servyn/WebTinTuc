@@ -17,6 +17,7 @@ public class AccountController : BaseController
     public ActionResult Register()
     {
         var user = new User();
+        user.Role = "user";
         return View(user);
     }
 
@@ -27,6 +28,12 @@ public class AccountController : BaseController
     {
         if (ModelState.IsValid)
         {
+            // Gán giá trị 'user' cho trường 'Role' nếu người dùng không đã gán trước đó
+            if (string.IsNullOrEmpty(user.Role))
+            {
+                user.Role = "user";
+            }
+
             _dbContext.Users.Add(user);
             _dbContext.SaveChanges();
             return RedirectToAction("Login", "Account");
@@ -34,6 +41,7 @@ public class AccountController : BaseController
         // Nếu dữ liệu không hợp lệ, hiển thị lại trang đăng ký với các thông báo lỗi
         return View(user);
     }
+
 
 
     // Phương thức để hiển thị form đăng nhập

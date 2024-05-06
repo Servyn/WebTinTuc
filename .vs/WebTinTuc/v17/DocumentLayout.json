@@ -3,160 +3,160 @@
   "WorkspaceRootPath": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\NewsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Controllers\\NewsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\Article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\Article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|d:\\hoc\\dacs\\\u0111\u1ED3 \u00E1n test\\webtintuc\\webtintuc\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:webtintuc\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\Article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\Article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\UserProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\AdminProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Account\\AdminProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\AdminProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\AdminProfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserArticles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Account\\UserArticles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserArticles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\UserArticles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Controllers\\BaseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Account\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Account\\UserList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\UserList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\UserList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\CreateNewsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\RegisterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\BaseLayoutController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\BaseLayoutController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\BaseLayoutController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\BaseLayoutController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\Contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\Contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\Contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\Contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\News\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Home\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\_DeleteConfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\News\\_DeleteConfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\_DeleteConfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\_DeleteConfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\News\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\News\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\News\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\EditArticleViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Models\\EditArticleViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\EditArticleViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Models\\EditArticleViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\FilterConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\App_Start\\FilterConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\FilterConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\App_Start\\FilterConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Global.asax||{4D30FDB3-AB3E-4810-B6F2-64627BCCA384}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\BundleConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebTinTuc\\App_Start\\BundleConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\App_Start\\BundleConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C662AD21-027C-4BC9-97F6-1F10B5350EAC}|WebTinTuc\\WebTinTuc.csproj|solutionrelative:WebTinTuc\\App_Start\\BundleConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -166,11 +166,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Article.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Models\\Article.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Models\\Article.cs",
@@ -187,15 +187,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\AccountController.cs",
               "RelativeToolTip": "WebTinTuc\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAIUAAAAiAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T11:35:57.309Z"
+              "WhenOpened": "2024-04-10T11:35:57.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -235,13 +236,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NewsController.cs",
               "DocumentMoniker": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\NewsController.cs",
               "RelativeDocumentMoniker": "WebTinTuc\\Controllers\\NewsController.cs",
               "ToolTip": "D:\\hoc\\DACS\\\u0110\u1ED3 \u00E1n test\\WebTinTuc\\WebTinTuc\\Controllers\\NewsController.cs",
               "RelativeToolTip": "WebTinTuc\\Controllers\\NewsController.cs",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAAAK0AAAABAAAA",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAAAKAAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T16:13:31.518Z",
               "EditorCaption": ""
@@ -472,7 +473,8 @@
               "RelativeToolTip": "WebTinTuc\\Web.config",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-02T01:24:46.858Z"
+              "WhenOpened": "2024-05-02T01:24:46.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
