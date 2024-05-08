@@ -1,4 +1,4 @@
-@model IEnumerable<WebTinTuc.Models.User>
+﻿@model IEnumerable<WebTinTuc.Models.User>
 
 @{
     ViewBag.Title = "User List";
@@ -31,7 +31,7 @@
                 <td>@user.DateOfBirth</td>
                 <td>@user.Gender</td>
                 <td>
-                    <a href="@Url.Action("UserArticles", "Account", new { userId = user.Id })" class="btn btn-primary">View Articles</a>
+                    <a href="@Url.Action("UserArticles", "Account", new { userId = user.Id })" class="btn btn-primary">Xem bài viết</a>
                 </td>
             </tr>
         }

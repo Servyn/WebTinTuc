@@ -9,7 +9,7 @@
 
 <div>
     <p>Xin chào, @User.Identity.Name!</p>
-    <a href="@Url.Action("Create", "News")" class="btn btn-primary">Create News</a>
+    <a href="@Url.Action("Create", "News")" class="btn btn-primary">Tạo bài viết</a>
     @if (User.Identity.IsAuthenticated)
     {
         using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))

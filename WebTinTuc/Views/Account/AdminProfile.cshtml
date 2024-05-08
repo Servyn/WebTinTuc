@@ -9,7 +9,7 @@
 
 <div>
     <p>Xin chào, @User.Identity.Name!</p>
-    <a href="@Url.Action("Create", "News")" class="btn btn-primary">Create News</a>
+    <a href="@Url.Action("Create", "News")" class="btn btn-primary">Tạo bài viết</a>
     @if (User.Identity.IsAuthenticated)
     {
         <a href="@Url.Action("UserList", "Account")" class="btn btn-primary">Danh sách người dùng</a>
