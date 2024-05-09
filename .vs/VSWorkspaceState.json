@@ -11,6 +11,6 @@
     "\\WebTinTuc\\Views\\News",
     "\\WebTinTuc\\Views\\Shared"
   ],
-  "SelectedNode": "\\WebTinTuc\\Controllers\\NewsController.cs",
+  "SelectedNode": "\\WebTinTuc\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
