@@ -310,6 +310,7 @@
     <Content Include="Views\Account\AdminProfile.cshtml" />
     <Content Include="Views\Account\UserList.cshtml" />
     <Content Include="Views\Account\UserArticles.cshtml" />
+    <Content Include="Views\News\ApproveArticle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

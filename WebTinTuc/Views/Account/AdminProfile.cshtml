@@ -13,6 +13,7 @@
     @if (User.Identity.IsAuthenticated)
     {
         <a href="@Url.Action("UserList", "Account")" class="btn btn-primary">Danh sách người dùng</a>
+        <a href="@Url.Action("ApproveArticle", "News")" class="btn btn-primary">Danh sách bài viết cần xác nhận</a>
         using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))
         {
             @Html.AntiForgeryToken()

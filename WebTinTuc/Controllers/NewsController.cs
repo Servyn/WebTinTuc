@@ -15,6 +15,7 @@ namespace WebTinTuc.Controllers
         }
 
         // GET: News/Create
+        // GET: News/Create
         public ActionResult Create()
         {
             var model = new CreateNewsViewModel();
@@ -36,7 +37,8 @@ namespace WebTinTuc.Controllers
                         Title = model.Title,
                         Content = model.Content,
                         PublishDate = DateTime.Now,
-                        CreatedById = currentUserId
+                        CreatedById = currentUserId,
+                        Status = false
                     };
 
                     _dbContext.Articles.Add(article);
@@ -53,6 +55,7 @@ namespace WebTinTuc.Controllers
 
             return View(model);
         }
+
 
         public ActionResult Edit(int id)
         {
@@ -168,6 +171,30 @@ namespace WebTinTuc.Controllers
                     return RedirectToAction("Index", "Home");
                 }
             }
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Approve(int id)
+        {
+            var article = _dbContext.Articles.Find(id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+
+            // Đặt trạng thái của bài viết thành "Approved"
+            article.Status = true;
+
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("ApproveArticle");
+        }
+        public ActionResult ApproveArticle()
+        {
+            // Lấy danh sách các bài viết chưa được xác nhận
+            var pendingArticles = _dbContext.Articles.Where(a => !a.Status).ToList();
+            return View(pendingArticles);
         }
 
     }
