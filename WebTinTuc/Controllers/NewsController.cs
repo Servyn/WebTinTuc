@@ -196,6 +196,22 @@ namespace WebTinTuc.Controllers
             var pendingArticles = _dbContext.Articles.Where(a => !a.Status).ToList();
             return View(pendingArticles);
         }
+        public ActionResult Details(int id)
+        {
+            var article = _dbContext.Articles.Include("Comments").FirstOrDefault(a => a.Id == id);
+            if (article == null)
+            {
+                return HttpNotFound();
+            }
+
+            var viewModel = new ArticleWithCommentsViewModel
+            {
+                Article = article,
+                Comments = article.Comments.ToList()
+            };
+
+            return View(viewModel);
+        }
 
     }
 }

@@ -1,0 +1,19 @@
+﻿@model WebTinTuc.Models.Comment
+
+<h2>Add Comment</h2>
+
+@using (Html.BeginForm("Create", "Comment", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Content)
+        @Html.TextAreaFor(model => model.Content, new { @class = "form-control", rows = "4" })
+        @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+    </div>
+
+    @Html.HiddenFor(model => model.ArticleId)
+    @Html.HiddenFor(model => model.UserId)
+
+    <button type="submit" class="btn btn-primary">Submit Comment</button>
+}

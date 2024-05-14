@@ -9,7 +9,7 @@ namespace WebTinTuc.Controllers
 {
     public abstract class BaseController : Controller
     {
-        protected int GetCurrentUserId()
+        public int GetCurrentUserId()
         {
             if (!User.Identity.IsAuthenticated)
             {

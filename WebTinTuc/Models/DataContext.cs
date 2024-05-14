@@ -17,6 +17,8 @@ namespace WebTinTuc.Models
         public DbSet<Contacts> Contacts { get; set; }
         public DbSet<Article> Articles { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+
 
     }
 }

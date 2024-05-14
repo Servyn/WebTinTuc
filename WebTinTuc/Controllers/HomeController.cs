@@ -19,6 +19,11 @@ namespace WebTinTuc.Controllers
     {
         private readonly DataContext _dbContext;
 
+        public HomeController()
+        {
+            _dbContext = new DataContext();
+        }
+
 
         public ActionResult Index()
         {
@@ -123,29 +128,28 @@ namespace WebTinTuc.Controllers
 
         //    return View();
         //}
+        private List<Comment> GetCommentsByArticleId(int articleId)
+        {
+            using (var dbContext = new DataContext())
+            {
+                // Lấy danh sách các bình luận của bài viết có articleId tương ứng từ cơ sở dữ liệu
+                return dbContext.Comments.Where(c => c.ArticleId == articleId).ToList();
+            }
+        }
 
         public ActionResult Details(int id)
         {
-            // Lấy thông tin tiêu đề và nội dung của bài viết dựa trên id
-            (string title, string content, DateTime publishDate) = GetArticleById(id);
-
-            if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(content))
+            var article = _dbContext.Articles.FirstOrDefault(a => a.Id == id);
+            var comments = _dbContext.Comments.Where(c => c.ArticleId == id).ToList();
+            var viewModel = new ArticleWithCommentsViewModel
             {
-                // Xử lý khi không tìm thấy bài viết
-                return HttpNotFound();
-            }
-
-            // Tạo một đối tượng Article để truyền vào view
-            var article = new Article
-            {
-                PublishDate = publishDate,
-                Title = title,
-                Content = content
+                Article = article,
+                Comments = comments
             };
-
-            return View(article);
+            return View(viewModel);
         }
-       
+
+
 
         private (string Title, string Content, DateTime PublishDate) GetArticleById(int id)
         {
