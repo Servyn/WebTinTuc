@@ -3,10 +3,10 @@
     "",
     "\\WebTinTuc",
     "\\WebTinTuc\\Controllers",
-    "\\WebTinTuc\\Models",
     "\\WebTinTuc\\Properties",
     "\\WebTinTuc\\Views",
     "\\WebTinTuc\\Views\\Account",
+    "\\WebTinTuc\\Views\\Comment",
     "\\WebTinTuc\\Views\\Home",
     "\\WebTinTuc\\Views\\News",
     "\\WebTinTuc\\Views\\Shared"

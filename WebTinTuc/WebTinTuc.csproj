@@ -135,6 +135,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -142,7 +143,10 @@
     </Compile>
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\ArticleWithCommentsViewModel.cs" />
     <Compile Include="Models\BaseLayoutController.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\CommentViewModel.cs" />
     <Compile Include="Models\Contacts.cs" />
     <Compile Include="Models\CreateNewsViewModel.cs" />
     <Compile Include="Models\DataContext.cs" />
@@ -300,7 +304,6 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Logout.cshtml" />
-    <Content Include="Views\News\Details.cshtml" />
     <Content Include="Views\Account\UserProfile.cshtml" />
     <Content Include="Views\News\Create.cshtml" />
     <Content Include="Views\News\Edit.cshtml" />
@@ -311,6 +314,7 @@
     <Content Include="Views\Account\UserList.cshtml" />
     <Content Include="Views\Account\UserArticles.cshtml" />
     <Content Include="Views\News\ApproveArticle.cshtml" />
+    <Content Include="Views\Comment\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

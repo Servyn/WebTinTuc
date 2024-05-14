@@ -1,33 +1,84 @@
-﻿@model WebTinTuc.Models.Article
+﻿@model WebTinTuc.Models.ArticleWithCommentsViewModel
+@using WebTinTuc.Controllers
 
 <div class="blog-details-section spad">
     <div class="container">
-
         <div class="row">
             <div class="col-lg-8">
+                <!-- Phần chi tiết bài viết -->
                 <div class="bh-text">
-                    <h2>@Model.Title</h2>
+                    <!-- Nội dung tiêu đề và thời gian đăng -->
+                    <h2>@Model.Article.Title</h2>
                     <ul>
                         <li>
-                            <i class="fa fa-calendar"></i>@Model.PublishDate
+                            <i class="fa fa-calendar"></i> @Model.Article.PublishDate
                         </li>
-                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                        <li><i class="fa fa-edit"></i> @Model.Comments.Count Comment(s)</li>
                     </ul>
                     <br />
                 </div>
-            </div>
-
-            <div class="col-lg-8 left-blog-pad">
                 <div class="bd-text">
+                    <!-- Nội dung bài viết -->
                     <div class="bd-title">
                         <div class="tinymce-content" style="text-align:justify">
-                            @Html.Raw(Model.Content)
+                            @Html.Raw(Model.Article.Content)
                         </div>
                     </div>
                 </div>
+                <div class="comments-section">
+                    <!-- Phần comment -->
+                    <h4>Comments</h4>
+                    @if (Model.Comments != null && Model.Comments.Any())
+                    {
+                        <div class="comments-section">
+                            @foreach (var comment in Model.Comments)
+                            {
+                                <div class="comment">
+                                    <div class="comment-meta">
+                                        <p><strong>@comment.User.Username</strong> - @comment.CreatedDate.ToString("MMMM dd, yyyy")</p>
+                                    </div>
+                                    <div class="comment-content">
+                                        <p>@comment.Content</p>
+                                    </div>
+
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <p>No comments yet.</p>
+                    }
+
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        using (Html.BeginForm("AddComment", "Comment", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="form-group">
+                                <label for="Content">Comment:</label>
+                                <textarea class="form-control" name="Content" rows="3"></textarea>
+                                @Html.ValidationMessageFor(model => Model.Article.Title)
+                            </div>
+
+                            <input type="hidden" name="ArticleId" value="@Model.Article.Id" />
+
+                            <button type="submit" class="btn btn-primary">Submit Comment</button>
+                        }
+                    }
+                    else
+                    {
+                        <p>Please <a href="/Account/Login">login</a> to leave a comment.</p>
+                    }
+
+                </div>
             </div>
             <div class="col-lg-4">
+                <!-- Phần sidebar -->
                 <div class="blog-sidebar">
+                    <!-- Các widget trong sidebar -->
                     <div class="bs-categories">
                         <div class="section-title sidebar-title">
                             <h5>Categories</h5>
@@ -130,9 +181,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
-</div>
 @section Scripts {
     <script src="https://cdn.tiny.cloud/1/gb6judfnnx2isd0kuky6zkcfl4o18qqq5ekgo69b9yc99el0/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
@@ -152,6 +203,4 @@
             contentElement.textContent = plainTextContent;
         });
     </script>
-
 }
-
