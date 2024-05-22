@@ -4,19 +4,22 @@
 <div class="blog-details-section spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 left-blog-pad">
                 <!-- Phần chi tiết bài viết -->
-                <div class="bh-text">
-                    <!-- Nội dung tiêu đề và thời gian đăng -->
-                    <h2>@Model.Article.Title</h2>
-                    <ul>
-                        <li>
-                            <i class="fa fa-calendar"></i> @Model.Article.PublishDate
-                        </li>
-                        <li><i class="fa fa-edit"></i> @Model.Comments.Count Comment(s)</li>
-                    </ul>
-                    <br />
+                <div class="col-lg-12">
+                    <div class="bh-text">
+                        <!-- Nội dung tiêu đề và thời gian đăng -->
+                        <h2>@Model.Article.Title</h2>
+                        <ul>
+                            <li>
+                                <i class="fa fa-calendar">@Model.Article.PublishDate</i>
+                            </li>
+                            <li><i class="fa fa-edit">@Model.Comments.Count Comment(s)</i></li>
+                        </ul>
+                        <br />
+                    </div>
                 </div>
+
                 <div class="bd-text">
                     <!-- Nội dung bài viết -->
                     <div class="bd-title">
@@ -25,53 +28,68 @@
                         </div>
                     </div>
                 </div>
-                <div class="comments-section">
-                    <!-- Phần comment -->
-                    <h4>Comments</h4>
-                    @if (Model.Comments != null && Model.Comments.Any())
-                    {
-                        <div class="comments-section">
-                            @foreach (var comment in Model.Comments)
+                <div class="bd-text">
+                    <div class="comment-option">
+                        <!-- Phần comment -->
+                        <h4>@Model.Comments.Count Comments</h4>
+                        <div class="single-comment-item second-comment">
+                            @if (Model.Comments != null && Model.Comments.Any())
                             {
-                                <div class="comment">
-                                    <div class="comment-meta">
-                                        <p><strong>@comment.User.Username</strong> - @comment.CreatedDate.ToString("MMMM dd, yyyy")</p>
-                                    </div>
-                                    <div class="comment-content">
-                                        <p>@comment.Content</p>
-                                    </div>
-
+                                <div>
+                                    @foreach (var comment in Model.Comments)
+                                    {
+                                        <div class="sc-text">
+                                            <span>@comment.CreatedDate.ToString("MMMM dd, yyyy")</span>
+                                            <h5>@comment.User.Username</h5>
+                                            <p>@comment.Content</p>
+                                            <a href="#" class="comment-btn like-btn">Like</a>
+                                            <a href="#" class="comment-btn">Reply</a>
+                                        </div>
+                                    }
                                 </div>
                             }
+                            else
+                            {
+                                <p>No comments yet.</p>
+                            }
+
                         </div>
-                    }
-                    else
-                    {
-                        <p>No comments yet.</p>
-                    }
 
 
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        using (Html.BeginForm("AddComment", "Comment", FormMethod.Post))
-                        {
-                            @Html.AntiForgeryToken()
+                    </div>
+                    <div class="comment-form">
+                        <h4>Leave A Comment</h4>
+                        <div class="row">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                using (Html.BeginForm("AddComment", "Comment", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
 
-                            <div class="form-group">
-                                <label for="Content">Comment:</label>
-                                <textarea class="form-control" name="Content" rows="3"></textarea>
-                                @Html.ValidationMessageFor(model => Model.Article.Title)
-                            </div>
+                                    <div class="col-lg-12">
 
-                            <input type="hidden" name="ArticleId" value="@Model.Article.Id" />
+                                        <textarea placeholder="Comment" name="Content" rows="3"></textarea>
+                                        @Html.ValidationMessageFor(model => Model.Article.Title)
 
-                            <button type="submit" class="btn btn-primary">Submit Comment</button>
-                        }
-                    }
-                    else
-                    {
-                        <p>Please <a href="/Account/Login">login</a> to leave a comment.</p>
-                    }
+                                        <input type="hidden" name="ArticleId" value="@Model.Article.Id" />
+
+                                        <button type="submit">Submit Comment</button>
+                                    </div>
+
+
+                                }
+                            }
+                            else
+                            {
+                                <p>Please <a href="/Account/Login">login</a> to leave a comment.</p>
+                            }
+                        </div>
+
+
+
+                    </div>
+
+
 
                 </div>
             </div>
@@ -181,15 +199,15 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+</div>
 @section Scripts {
     <script src="https://cdn.tiny.cloud/1/gb6judfnnx2isd0kuky6zkcfl4o18qqq5ekgo69b9yc99el0/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var contentElement = document.querySelector('.tinymce-content');
-            var content = contentElement.textContent;
+            var content = contentElement.innerHTML;
 
             // Giải mã nội dung TinyMCE
             var decodedContent = decodeURIComponent(content);
