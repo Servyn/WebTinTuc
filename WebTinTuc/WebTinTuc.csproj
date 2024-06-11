@@ -138,13 +138,16 @@
     <Compile Include="Controllers\CommentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\SessionExpireAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\StringHelper.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\ArticleWithCommentsViewModel.cs" />
     <Compile Include="Models\BaseLayoutController.cs" />
+    <Compile Include="Models\Categories.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\CommentViewModel.cs" />
     <Compile Include="Models\Contacts.cs" />
@@ -153,6 +156,7 @@
     <Compile Include="Models\EditArticleViewModel.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\RegisterDbContext.cs" />
+    <Compile Include="Models\TinTuc.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

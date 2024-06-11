@@ -29,5 +29,10 @@ namespace WebTinTuc.Models
         public bool Status { get; set; }
 
         public virtual ICollection<Comment> Comments { get; set; }
+
+        public int CategoryId { get; set; } // Thay đổi tên thành CreatedById để phản ánh Id của người tạo
+
+        public virtual Category Category { get; set; } // Thêm thuộc tính để thiết lập quan hệ với User
+
     }
 }

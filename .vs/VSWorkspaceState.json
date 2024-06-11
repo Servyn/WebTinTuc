@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\WebTinTuc",
-    "\\WebTinTuc\\App_Start",
+    "\\WebTinTuc\\Controllers",
     "\\WebTinTuc\\Models",
     "\\WebTinTuc\\Views",
     "\\WebTinTuc\\Views\\Account",
@@ -11,6 +11,6 @@
     "\\WebTinTuc\\Views\\News",
     "\\WebTinTuc\\Views\\Shared"
   ],
-  "SelectedNode": "\\WebTinTuc\\App_Start\\RouteConfig.cs",
+  "SelectedNode": "\\WebTinTuc\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
